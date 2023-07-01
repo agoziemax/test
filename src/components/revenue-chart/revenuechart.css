@@ -1,0 +1,46 @@
+.main-container{
+  height: 290px;
+  border-radius: 20px;
+  border: 1px solid #fbfbff;
+  background: #FFF;
+}
+
+.main-container small{
+  font-size: 12px;
+  color: #6A6D81;
+}
+
+.total-rev {
+  color: #364265;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.days {
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #ced2e1;
+  background:  #fff;
+  color: #0B0E17;
+   font-size: 12px;
+}
+
+.total{
+  font-size: 10px;
+}
+
+.bullets {
+  background-color:green;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 5px 5px 0 0;
+}
+
+.bullets2 {
+  background-color:red;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 5px 5px 0 0;
+}

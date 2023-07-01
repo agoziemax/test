@@ -1,0 +1,66 @@
+/* .table-container{
+  width: 670px;
+} */
+
+.table-container table thead {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+
+  color: #4c4c4c;
+
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+}
+
+.table-container table tbody {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+}
+
+.enabled {
+  width: auto;
+  height: auto;
+  padding: 4px;
+  cursor: pointer;
+  background: #e1eee7;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #27ae60;
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+}
+
+.disabled {
+  width: auto;
+  height: auto;
+  padding: 4px;
+  cursor: pointer;
+  background: #f3e2e3;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b4171c;
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+}
